@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.titel {
+    display: flex;
+    justify-content: center;
+    background-color: #017100;
+    color: white;
+    font-size: x-large;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.titel a{
+    text-decoration: none;
+    color: white;
+}
+
+.ondertitel {
+    display: flex;
+    justify-content: center;
+    margin-top: -1.5em;
+    background-color: #1DB100;
+    padding: 0.3em;
+    font-weight: 550;
+    font-size: 450;
+    margin-bottom: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #61D836;
+    padding: 0.5em;
+    font-size: smaller;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #88FA4E;
+}
+
+nav a:active {
+    color: white;
+}
+
+main {
+    margin: 1em;
+}
+
+h1 {
+    color: #61D836;
+    margin-bottom: -0.4em;
+}
+
+.titelpdf {
+    margin-bottom: 0.4em;
+}
