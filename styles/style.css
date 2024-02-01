@@ -88,3 +88,7 @@ th  {
     background-color: grey;
     color: white;
 }
+
+.screenshot {
+    max-width: 50%;
+}
